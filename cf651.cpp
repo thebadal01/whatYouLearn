@@ -1,12 +1,9 @@
-// Keshav Agarwal, Codechef_handle = agarwal_keshav; codeforces_handle = k_agarwal
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
 #define nl cout<<"\n";
 #define fix(f,n) cout<<fixed<<setprecision(n)<<f
 const int mod = 1e9+7;
-template<typename ...T>
-void debug(T&&... args){ ((cerr << args << " "), ...);cerr<<"\n";}
 ll gcd(ll a,ll b){ return a?gcd(b%a,a):b; }
 ll minv(ll a,ll b){ return a<b?a:b;}
 ll maxv(ll a,ll b){ return a>b?a:b;}
